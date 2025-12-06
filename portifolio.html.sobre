@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cloud-layer layer1">
+        <div class="cloud" style="left:0px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:300px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:600px;"><span></span><span></span><span></span></div>
+    </div>
+    <div class="cloud-layer layer2">
+        <div class="cloud" style="left:100px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:400px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:700px;"><span></span><span></span><span></span></div>
+    </div>
+    <div class="cloud-layer layer3">
+        <div class="cloud" style="left:50px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:350px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:650px;"><span></span><span></span><span></span></div>
+    </div>
+    <header>
+        <nav class="navbar glass">
+            <h1 class="logo">Rod Portfólio</h1>
+            <button id="menu-btn" class="menu-btn">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contato" class="contato glass">
+        <h2>Entre em Contato!😄</h2>
+        <form class="contato-form" id="contato-form" novalidate>
+            <div class="input-group">
+                <input type="text" id="nome" name="nome" placeholder=" " required>
+                <label for="nome">Nome</label>
+                <span class="input-error">Insira seu nome.</span>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder=" " required>
+                <label for="email">E-mail</label>
+                <span class="input-error">Esse e-mail não é válido.</span>
+            </div>
+            <div class="input-group">
+                <textarea id="mensagem" name="mensagem" placeholder=" " required></textarea>
+                <label for="mensagem">Mensagem</label>
+                <span class="input-error">Escreva uma mensagem.</span>
+            </div>
+            <button type="submit" class="btn btn-submit">Enviar</button>
+        </form>
+        <div class="contato-links">
+            <a href="https://linkedin.com/in/rod" target="_blank" class="icon-link">LinkedIn</a>
+            <a href="https://github.com/Rod982/html" target="_blank" class="icon-link">GitHub</a>
+            <a href="https://www.bing.com/ck/a?!&&p=d8174d77e7a1d0e3aac873dcd16210d41f142eac3e1ab0fbdf19f8125d83ca73JmltdHM9MTc2NDk3OTIwMA&ptn=3&ver=2&hsh=4&fclid=21694183-eadf-678a-06b3-5739ebf5668f&psq=gmail&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbD9obD1wdC1CUg" class="icon-link">E-mail</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
