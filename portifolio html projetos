@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cloud-layer layer1">
+        <div class="cloud" style="left:0px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:300px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:600px;"><span></span><span></span><span></span></div>
+    </div>
+    <div class="cloud-layer layer2">
+        <div class="cloud" style="left:100px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:400px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:700px;"><span></span><span></span><span></span></div>
+    </div>
+    <div class="cloud-layer layer3">
+        <div class="cloud" style="left:50px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:350px;"><span></span><span></span><span></span></div>
+        <div class="cloud" style="left:650px;"><span></span><span></span><span></span></div>
+    </div>
+
+    <header>
+        <nav class="navbar glass">
+            <h1 class="logo">Rod Portfólio</h1>
+            <button id="menu-btn" class="menu-btn">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projetos" class="projetos glass">
+        <h2>Projetos</h2>
+        <div class="cards-container">
+            <div class="card glass">
+                <h3>Projeto 1</h3>
+                <p>Ferramenta de substituição de palavras/frases.</p>
+                <button class="btn btn-modal" data-modal="modal1">Ver projeto</button>
+            </div>
+            <div class="card glass">
+                <h3>Projeto 2</h3>
+                <p>Secretário virtual para plataforma de vendas.</p>
+                <button class="btn btn-modal" data-modal="modal2">Ver projeto</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal1">
+        <div class="modal-content glass">
+            <span class="close" data-close="modal1">&times;</span>
+            <h3>Projeto 1</h3>
+            <p>Ferramenta que permite substituir palavras/frases digitadas por outras de sua preferência.
+                https://github.com/Rod982/html
+            </p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal2">
+        <div class="modal-content glass">
+            <span class="close" data-close="modal2">&times;</span>
+            <h3>Projeto 2</h3>
+            <p>Um programa que supervisiona automaticamente sua plataforma de vendas.
+                https://github.com/Rod982/html
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
